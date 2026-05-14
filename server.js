@@ -10,6 +10,9 @@ app.get("/test", (req, res) => {
   res.send("Good Test!");
 });
 
+app.get("/api/fun-fact", (req, res) => {
+  res.send("Response");
+});
 
 
 
@@ -17,3 +20,4 @@ app.get("/test", (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
 });
+   
