@@ -1,9 +1,0 @@
-### Testing the test route
-GET http://localhost:3000/test
-
-###
-
-### To Fetch a random fun fact from Useless Facts API
-GET http://localhost:3000/api/fun-fact
-
-###
